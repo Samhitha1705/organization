@@ -9,6 +9,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/employees")
+@CrossOrigin(origins = "https://orga123front.azurewebsites.net")
 public class EmployeeController {
 
     @Autowired
